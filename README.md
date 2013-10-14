@@ -17,6 +17,7 @@ http://blog.javierusobiaga.com/stop-using-the-viewport-tag-until-you-know-ho
 Media queries & fluid grids:
 http://webdesignerwall.com/tutorials/css3-media-queries 
 (This example assumes that we're starting with the desktop version and defining the alternative mobile styles using media queries. Our exercise is the opposite, since it's "mobile first".)
+
 http://bradfrostweb.com/blog/post/7-habits-of-highly-effective-media-queries/
 
 Flexible images & media:
