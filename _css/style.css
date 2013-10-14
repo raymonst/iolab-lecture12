@@ -1,0 +1,127 @@
+/* reset */
+
+html, body, address, blockquote, del, div, h1, h2, h3, h4, h5, h6, hr, ins, noscript, p, pre, dl, dt, dd, li, ol, ul, table, caption, colgroup, col, thead, tfoot, tbody, tr, td, th, form, button, fieldset, figure, legend, label, select, optgroup, option, textarea, a, bdo, br, img, map, area, object, param, q, script, span, sub, sup, abbr, acronym, cite, code, del, dfn, em, ins, kbd, samp, strong, var, b, big, i, small, tt{border:0;font-family:inherit;font-size:100%;font-style:inherit;font-weight:inherit;margin:0;outline:0;padding:0;vertical-align:baseline;}
+ol, ul{list-style:none;}
+th{text-align:left;}
+table{border-collapse:collapse;}
+
+
+
+/* global */
+
+body 												{background:#eee; color:#555; font-family:'Bitter',georgia,serif; line-height:1.5;}
+a:link,
+a:visited										    {color:#3db2ae; text-decoration:none;
+													-moz-transition:color .1s ease-in;
+													-webkit-transition:color .1s ease-in;
+													-o-transition:color .1s ease-in;
+													transition:color .1s ease-in;
+}
+a:hover,
+a:visited:hover									    {color:#0796ca; text-decoration:none;}
+
+table td										    {}
+
+h1												    {font-size:2.5em; font-weight:700; margin:0 0 .25em 0; text-align:center;}
+h2												    {font-size:1.5em; font-weight:700; line-height:1.25; margin:0 0 .5em 0;}
+h3												    {font-weight:700; margin:0 0 .75em 0; text-transform:uppercase;}
+h4												    {}
+h5												    {}
+h6												    {}
+
+p												    {margin:0 0 1.5em 0;}
+span												{}
+hr													{}
+label												{}
+input[type=text]									{}
+input[type=text]:focus								{}
+input[type=submit]									{}
+textarea											{}
+
+::selection 										{}
+::-moz-selection 									{}
+
+
+
+/* container */
+
+#container											{background:#fff; box-shadow:0 0 20px #ccc; margin:0 5%; width:90%;}
+
+
+
+/* header */
+
+header												{background:#1c4761; color:#fff; padding:.5em 0 0 0;}
+header #nav											{background:-webkit-linear-gradient(#222 0%, #444 100%); display:block;}
+header li											{display:inline-block; font-size:.875em; margin:0; text-align:center; width:25%;}
+header li a:link,
+header li a:visited									{color:#ccc; padding:.25em .5em; display:inline-block; margin:0 .5em 0 0; text-transform:uppercase;}
+header li a:hover									{color:#999;}
+
+
+
+/* main */
+
+#main												{padding:5%;}
+#main figure										{border-bottom:1px dotted #ccc; margin:0 0 1.5em 0;}
+#main figure .image-full							{height:auto; margin:0 0 1em 0; width:100%;}
+#main figure .image-thumbnail						{float:right; margin:0 0 1em 1em;}
+
+
+/* sidebar */
+
+#sidebar											{padding:0 5% 5% 5%;}
+#sidebar ul li										{margin:0 0 .75em 0;}
+#sidebar .sidebar-section							{margin:0 0 2em 0;}
+
+
+
+/* footer */
+
+footer												{background:#000; clear:both; padding:1.5em 1em 2em 1em;}
+footer li											{display:block; font-size:.75em; font-weight:700; margin:0 0 1em 0; text-align:center; text-transform:uppercase;}
+footer li a:link,
+footer li a:visited									{color:#fff;}
+footer li a:hover									{color:#ccc;}
+
+
+
+/* responsive design css rules */
+
+/*
+@media screen and (min-width:480px) and (max-width:800px) {
+body 												{}
+													}
+
+@media screen and (min-width:800px) and (max-width:1024px) {
+body 												{}
+													}
+*/
+
+@media screen and (min-width:1024px) {
+
+h2												    {font-size:1.75em; line-height:1.1;}
+p												    {font-size:1.1em;}
+
+#container											{overflow:hidden;}
+
+#main												{float:left; padding:2% 3% 2% 2%; width:60%;}
+#main figure 										{overflow:hidden;}
+#main figure .image-full							{display:block; float:left; height:auto; margin:0 1.5em 1.5em 0; width:auto;}
+#main figure .image-thumbnail						{float:right; margin:0 0 1em 1em;}
+
+#sidebar											{background:#f5fafb; float:left; font-size:.875em; padding:2%; width:31%;}
+
+footer												{padding:1.5em 2em 2em 2em;}
+footer li											{display:inline-block; text-align:left; margin:0 1.5em 0 0;}
+
+													}
+
+
+
+/* misc */
+
+strong											    {font-weight:bold;}
+em													{font-style:italic;}
+.cb													{clear:both;}          
+.sticky												{position:fixed; left:5%; top:0; width:90%; z-index:100;}
