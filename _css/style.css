@@ -88,35 +88,6 @@ footer li a:hover									{color:#ccc;}
 
 /* responsive design css rules */
 
-/*
-@media screen and (min-width:480px) and (max-width:800px) {
-body 												{}
-													}
-
-@media screen and (min-width:800px) and (max-width:1024px) {
-body 												{}
-													}
-*/
-
-@media screen and (min-width:1024px) {
-
-h2												    {font-size:1.75em; line-height:1.1;}
-p												    {font-size:1.1em;}
-
-#container											{overflow:hidden;}
-
-#main												{float:left; padding:2% 3% 2% 2%; width:60%;}
-#main figure 										{overflow:hidden;}
-#main figure .image-full							{display:block; float:left; height:auto; margin:0 1.5em 1.5em 0; width:auto;}
-#main figure .image-thumbnail						{float:right; margin:0 0 1em 1em;}
-
-#sidebar											{background:#f5fafb; float:left; font-size:.875em; padding:2%; width:31%;}
-
-footer												{padding:1.5em 2em 2em 2em;}
-footer li											{display:inline-block; text-align:left; margin:0 1.5em 0 0;}
-
-													}
-
 
 
 /* misc */

@@ -20,5 +20,10 @@ Media queries & fluid grids:
 * This example assumes that we're starting with the desktop version and defining the alternative mobile styles using media queries. Our exercise is the opposite, since it's "mobile first".
 
 Flexible images & media:
-http://css-tricks.com/rundown-of-handling-flexible-media/
+* http://css-tricks.com/rundown-of-handling-flexible-media/
+* http://css-tricks.com/which-responsive-images-solution-should-you-use/
+
+iOS & Android emulators:
+* https://developer.apple.com/xcode/
+* http://developer.android.com/sdk/index.html
 
